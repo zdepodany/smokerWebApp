@@ -1,0 +1,50 @@
+.cigarette-counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  margin: 72px 0 32px 0;
+  transition: 0.2s;
+}
+
+.counter-circle p {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.displayed-count {
+  margin: 0;
+}
+
+.counter-buttons {
+  margin-top: 16px;
+  display: flex;
+  gap: 56px;
+}
+
+.counter-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.smokeIcon {
+  width: 100%;
+  height: 100%;
+  color: #8D1C1C;
+}
+
+.smokeIcon:hover {
+  color: #F6CC3A;
+  transition: 0.2s;
+}

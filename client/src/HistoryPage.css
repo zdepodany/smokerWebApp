@@ -1,0 +1,42 @@
+.day {
+    margin-top: 32px;
+    width: 358px;
+    padding: 13px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.date {
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #833838;
+}
+
+.cigarette {
+    width: 100%;
+    padding: 13px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 1px 4px 23px 0px rgba(0, 0, 0, 0.04);
+}
+
+.cigarette p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cigData {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cigData p {
+    color: #833838;
+    font-weight: 500;
+}

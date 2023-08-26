@@ -1,0 +1,36 @@
+.icon {
+    color: #8D1C1C;
+}
+
+.bottom-menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    box-shadow: 0px -2px 16px rgba(0, 0, 0, 0.05);
+}
+
+.bottom-menu button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.bottom-menu button:hover {
+    transform: translateY(-4px);
+}
+
+
+
+button:hover .icon {
+  color: #F6CC3A;
+  transition: 0.2s;
+}
